@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1>Bem-vindo ao Meu Site</h1>
+    <p>Este é um site com múltiplas páginas para atender aos requisitos do exercício.</p>
+    <img src="imagem1.jpg" alt="Imagem ilustrativa">
+    <p>Confira <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> para mais informações.</p>
+</body>
+</html>
+
+<!-- sobre.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1>Sobre Nós</h1>
+    <p>Informações sobre o site e seu propósito.</p>
+    <img src="imagem2.jpg" alt="Imagem ilustrativa">
+</body>
+</html>
+
+<!-- contato.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1>Contato</h1>
+    <p>Entre em contato conosco através do formulário abaixo.</p>
+    <img src="imagem3.jpg" alt="Imagem ilustrativa">
+</body>
+</html>
+
+/* style.css */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}

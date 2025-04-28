@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites Populares</title>
+    <style>
+        a {
+            color: yellow;
+            text-decoration: none;
+        }
+        a:hover {
+            color: green;
+        }
+        a:visited {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sites Populares</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank"><strong>Google</strong></a></li>
+        <li><a href="https://www.facebook.com" target="_blank"><strong>Facebook</strong></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><strong>YouTube</strong></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><strong>Instagram</strong></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><strong>Twitter</strong></a></li>
+        <li><a href="https://www.amazon.com" target="_blank"><strong>Amazon</strong></a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank"><strong>Wikipedia</strong></a></li>
+        <li><a href="https://www.reddit.com" target="_blank"><strong>Reddit</strong></a></li>
+    </ul>
+</body>
+</html>

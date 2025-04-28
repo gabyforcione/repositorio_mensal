@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Bandeiras do Mundo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .bandeira {
+      width: 300px;
+      height: 200px;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    /* França: 3 faixas verticais azul, branca, vermelha */
+    .franca {
+      display: flex;
+    }
+
+    .franca div {
+      flex: 1;
+      height: 100%;
+    }
+
+    .franca .azul { background-color: #0055A4; }
+    .franca .branco { background-color: white; }
+    .franca .vermelho { background-color: #EF4135; }
+
+    /* Japão: fundo branco com círculo vermelho centralizado */
+    .japao {
+      background-color: white;
+      position: relative;
+    }
+
+    .japao::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #BC002D;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Alemanha: 3 faixas horizontais preta, vermelha, amarela */
+    .alemanha {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .alemanha div {
+      flex: 1;
+      height: 100%;
+    }
+
+    .alemanha .preta { background-color: black; }
+    .alemanha .vermelha { background-color: red; }
+    .alemanha .amarela { background-color: #FFCE00; }
+
+    /* Itália: 3 faixas verticais verde, branca, vermelha */
+    .italia {
+      display: flex;
+    }
+
+    .italia div {
+      flex: 1;
+      height: 100%;
+    }
+
+    .italia .verde { background-color: #008C45; }
+    .italia .branca { background-color: white; }
+    .italia .vermelha { background-color: #CD212A; }
+
+    /* Rússia: 3 faixas horizontais branca, azul, vermelha */
+    .russia {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .russia div {
+      flex: 1;
+      height: 100%;
+    }
+
+    .russia .branca { background-color: white; }
+    .russia .azul { background-color: #0033A0; }
+    .russia .vermelha { background-color: #D52B1E; }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bandeiras do Mundo</h1>
+    <p>Representações estilizadas com HTML e CSS</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🇫🇷 França</h2>
+      <div class="bandeira franca">
+        <div class="azul"></div>
+        <div class="branco"></div>
+        <div class="vermelho"></div>
+      </div>
+      <p>A bandeira da França é composta por três faixas verticais de igual tamanho nas cores azul, branco e vermelho. É conhecida como "Le Tricolore".</p>
+    </section>
+
+    <section>
+      <h2>🇯🇵 Japão</h2>
+      <div class="bandeira japao"></div>
+      <p>A bandeira do Japão, chamada de "Nisshōki" ou "Hinomaru", possui um fundo branco com um círculo vermelho representando o sol.</p>
+    </section>
+
+    <section>
+      <h2>🇩🇪 Alemanha</h2>
+      <div class="bandeira alemanha">
+        <div class="preta"></div>
+        <div class="vermelha"></div>
+        <div class="amarela"></div>
+      </div>
+      <p>A bandeira da Alemanha tem três faixas horizontais: preta, vermelha e dourada. Essas cores simbolizam a unidade e liberdade do povo alemão.</p>
+    </section>
+
+    <section>
+      <h2>🇮🇹 Itália</h2>
+      <div class="bandeira italia">
+        <div class="verde"></div>
+        <div class="branca"></div>
+        <div class="vermelha"></div>
+      </div>
+      <p>A bandeira italiana apresenta três faixas verticais: verde, branca e vermelha, e é inspirada na bandeira francesa.</p>
+    </section>
+
+    <section>
+      <h2>🇷🇺 Rússia</h2>
+      <div class="bandeira russia">
+        <div class="branca"></div>
+        <div class="azul"></div>
+        <div class="vermelha"></div>
+      </div>
+      <p>A bandeira russa consiste em três faixas horizontais: branca, azul e vermelha. Foi adotada oficialmente em 1991 após o fim da URSS.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Bandeiras com HTML e CSS | Atividade extra para nota
+  </footer>
+</body>
+</html>

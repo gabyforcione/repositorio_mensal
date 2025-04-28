@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 1</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonte do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="cabecalho">
+    <h1>Bem-vindo ao site!</h1>
+  </header>
+  <main>
+    <p>Esse é o conteúdo principal.</p>
+    <p>Aqui temos mais informações.</p>
+  </main>
+  <footer class="rodape">
+    <p>Contato: email@exemplo.com</p>
+    <p id="last-content">Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+  font-size: 34px;
+}
+
+.rodape {
+  font-size: 14px;
+  background-color: gray;
+}
+
+main {
+  font-size: 18px;
+}
+
+#last-content {
+  font-weight: bold;
+  text-decoration: underline;
+}

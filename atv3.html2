@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overtourism</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #333;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+        }
+        section h2 {
+            color: #222;
+            font-size: 24px;
+        }
+        section p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #444;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Overtourism: O impacto do turismo excessivo</h1>
+    </header>
+    <hr>
+    <section>
+        <h2>O que é Overtourism?</h2>
+        <p>Overtourism ocorre quando um destino turístico recebe visitantes além de sua capacidade sustentável.</p>
+        <p>Isso pode levar a problemas ambientais, sociais e econômicos.</p>
+    </section>
+</body>
+</html>

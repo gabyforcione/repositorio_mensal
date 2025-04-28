@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section class="section1">
+      <p>Parágrafo 1</p>
+      <p>Parágrafo 2</p>
+      <p>Parágrafo 3</p>
+    </section>
+    <section class="section2">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
+.container * {
+  color: blue;
+}
+
+.section2 ul li {
+  background-color: green;
+}

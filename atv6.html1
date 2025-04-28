@@ -1,0 +1,65 @@
+<div class="div1"></div>
+<div class="div2"></div>
+
+<div class="div3"></div>
+<div class="div4"></div>
+<br>
+<div class="div5"></div>
+<div class="div6"></div>
+
+
+<div class="div7"></div>
+<div class="div8"></div>
+.div1{
+      margin-bottom: 30px;
+      border-color: red;
+      border-style: solid;
+      border-width: 20px;
+      width: 100px;
+      height: 100px;
+      padding:10px;
+      background-color: red;
+  }
+.div2{
+  margin-bottom: 30px;
+      border-color: red;
+      border-style: solid;
+      border-width: 20px;
+      width: 200px;
+      height: 100px;
+      padding:10px;
+      background-color: red;
+}
+<style> 
+<div{
+  border : 2px solid green
+}
+.div3{
+
+  margin-left: auto;
+  width: 300px;
+  height: 60px;
+  background-color: green;     
+}
+.div4{
+
+  width: 300px;
+  height: 60px;
+  background-color: pink;
+}
+ </style>
+
+<style>
+.div7{
+  margin-bottom: 30px;
+  border: 2px solid yellow
+}
+</style>
+
+<style>
+.div8{
+  margin-bottom: 30px;
+  border: 2px solid yellow;
+  padding: 20px
+}
+</style>

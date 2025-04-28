@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4a261;
+            color: white;
+            font-weight: bold;
+        }
+        tfoot {
+            background-color: #264653;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cardápio do Restaurante</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Filé à Parmegiana</td>
+                <td>Filé empanado com molho de tomate e queijo derretido, acompanhado de arroz e batata frita.</td>
+                <td>&euro; 18.90</td>
+            </tr>
+            <tr>
+                <td>Risoto de Camarão</td>
+                <td>Arroz cremoso com camarões frescos, temperado com ervas finas e queijo parmesão.</td>
+                <td>&euro; 22.50</td>
+            </tr>
+            <tr>
+                <td>Penne ao Pesto</td>
+                <td>Macarrão penne com molho pesto artesanal, feito com manjericão, nozes e azeite de oliva.</td>
+                <td>&euro; 14.90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Aceitamos pagamentos em dinheiro, cartões de crédito e débito.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

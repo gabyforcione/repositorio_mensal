@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Carteirinha USP</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
+    .carteirinha {
+      width: 350px;
+      background: linear-gradient(to bottom, #f58634, #e67e22); /* laranja degradê */
+      color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    .topo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px;
+    }
+
+    .texto-topo {
+      text-align: left;
+    }
+
+    .texto-topo h2 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .texto-topo p {
+      margin: 4px 0 0;
+      font-size: 12px;
+    }
+
+    .topo img {
+      width: 80px;
+      height: 80px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+
+    .linha {
+      height: 6px;
+    }
+
+    .linha.laranja {
+      background-color: #d35400;
+    }
+
+    .linha.azul {
+      background-color: #2980b9;
+    }
+
+    .linha.azul-claro {
+      background-color: #5dade2;
+    }
+
+    .info {
+      background-color: white;
+      color: black;
+      padding: 16px;
+    }
+
+    .info p {
+      margin: 6px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="carteirinha">
+    <div class="topo">
+      <div class="texto-topo">
+        <h2>Universidade de São Paulo</h2>
+        <p>Carteira de Identificação Estudantil</p>
+      </div>
+      <img src="https://via.placeholder.com/80x80" alt="Foto do aluno">
+    </div>
+
+    <div class="linha laranja"></div>
+    <div class="linha azul"></div>
+    <div class="linha azul-claro"></div>
+
+    <div class="info">
+      <p><strong>Nome:</strong> João da Silva</p>
+      <p><strong>Nº USP:</strong> 1234567</p>
+      <p><strong>Curso:</strong> Engenharia da Computação</p>
+      <p><strong>Unidade:</strong> Escola Politécnica</p>
+    </div>
+  </div>
+</body>
+</html>
